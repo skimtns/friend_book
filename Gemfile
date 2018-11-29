@@ -41,6 +41,10 @@ group :development, :test do
   gem 'pry', platforms: [:mri, :mingw, :x64_mingw]
 end
 
+gem 'jquery-rails'
+
+gem 'semantic-ui-sass'
+
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
